@@ -4,7 +4,7 @@
         <Header class="fixed w-full z-50"></Header>
         <NonHomeBanner> </NonHomeBanner>
         <div class="main flex max-w-[1280px] m-auto">
-            <NonHomeLeftSideBar :array="sideArray" class="w-[25%] estiqui h-[100vh] pr-6" />
+            <NonHomeLeftSideBar :array="sideArray" class="w-[25%] estiqui pr-6 h-auto top-2 items-start" />
             <div class="body flex flex-col gap-24 pt-24 w-full ml-6">
                 <div class="cards gap-10 border-y border-gray0 w-full py-10">
                     <div class="line grid grid-cols-4 ">
